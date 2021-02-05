@@ -1,0 +1,34 @@
+.head{
+    width: 100%;
+    background-color: chartreuse;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline-block;
+    margin-left: 25px;
+}
+a{
+    text-decoration: none;
+    color: cornsilk;
+}
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.imgs{
+    display: flex;
+}
+@media screen and (max-width: 500px) {
+    .content{
+        display: block;
+    }
+}
